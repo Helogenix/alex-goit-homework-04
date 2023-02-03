@@ -508,15 +508,17 @@ margin-bottom: 72px;
   height: 100%;
   border: 1px solid currentColor;
   border-radius: 4px;
-  color: var(--customers-color);
+  color: var(--customers-color)
+  
 }
+
 
 
 .customers-link:hover,
 .customers-link:focus,
 .customers-list:active {
-  border: 1px solid var(--customers-color-active);
-  fill: var(--customers-color-active);
+  color: var(--customers-color-active);
+  fill: var(--customers-color-active)
 }
 
 /* footer */
@@ -595,8 +597,6 @@ margin-left: 120px;
 */
 .project > .item {
   box-shadow: var(--cardshadow); 
-  border: 1px solid var(--accent);
-  border-top: none; 
 }
 .project-link:hover,
 .project-link:focus {
