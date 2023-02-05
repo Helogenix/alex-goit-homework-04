@@ -132,8 +132,8 @@ body {
   transition: var(--pressed-state);
 }
 
-.link-blink:hover,
-.link-blink:focus {
+.link:hover,
+.link:focus {
   color: var(--pressed-state);
 }
 
@@ -596,7 +596,7 @@ body {
   border: 1px solid currentColor;
   border-radius: 4px;
   color: var(--customers-color);
-
+  transition: border 250ms var(--timing-function);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -613,6 +613,7 @@ body {
 .customers-link:focus,
 .customers-list:active {
   color: var(--customers-color-active);
+  border: 1px solid var(--customers-color-active)
 }
 
 /* footer */
